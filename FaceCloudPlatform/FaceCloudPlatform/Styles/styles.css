@@ -1,0 +1,46 @@
+﻿header .header {
+    background-color: #171717;
+    zoom: 1;
+    max-width: 1440px;
+    min-width: 1140px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+header .logo {
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+    float: left;
+    text-indent: -999em;
+    background-image: url("~/Resources/lena.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0
+}
+
+header .navigation {
+    padding-left: 20px;
+    float: left;
+    padding-top: 5px
+}
+
+header .navigation > li {
+    line-height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: 60px;
+    cursor: default;
+    border-bottom: 3px solid #171717;
+    text-align: center
+}
+
+header .navigation > li.on {
+    border-bottom: 3px solid #00A4E3
+}
+
+header .navigation > li ul li {
+    line-height: 40px;
+    padding: 0 20px;
+    min-width: 130px;
+    white-space: nowrap
+}
